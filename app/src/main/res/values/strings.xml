@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">maxlab3</string>
+
+    <!-- Main -->
+    <string name="main_title">โน้ตของฉัน</string>
+    <string name="btn_add_note">+ เพิ่มโน้ต</string>
+    <string name="btn_add_user">+ เพิ่มผู้ใช้</string>
+    <string name="empty_notes">ยังไม่มีโน้ต กด \"เพิ่มโน้ต\" เพื่อเริ่มต้น</string>
+    <string name="type_text_note">ข้อความ</string>
+    <string name="type_checklist_note">เช็คลิสต์</string>
+    <string name="note_owner_format">เจ้าของ: %1$s  •  %2$s</string>
+    <string name="detail_owner">เจ้าของ: %1$s</string>
+    <string name="detail_email">อีเมล: %1$s</string>
+    <string name="detail_date">สร้างเมื่อ: %1$s</string>
+    <string name="close">ปิด</string>
+
+    <!-- Add note -->
+    <string name="add_note_title">เพิ่มโน้ต</string>
+    <string name="label_owner">เจ้าของโน้ต</string>
+    <string name="no_user_warning">ยังไม่มีผู้ใช้ กรุณาเพิ่มผู้ใช้ก่อนสร้างโน้ต</string>
+    <string name="label_type">ชนิดโน้ต</string>
+    <string name="rb_text">TextNote (ข้อความ)</string>
+    <string name="rb_checklist">ChecklistNote (เช็คลิสต์)</string>
+    <string name="hint_title">หัวข้อโน้ต</string>
+    <string name="hint_content">เนื้อหา</string>
+    <string name="hint_item">รายการเช็คลิสต์</string>
+    <string name="btn_add_item">เพิ่มรายการ</string>
+    <string name="no_items_yet">(ยังไม่มีรายการ)</string>
+    <string name="btn_save_note">บันทึกโน้ต</string>
+    <string name="note_saved">บันทึกโน้ตแล้ว</string>
+
+    <!-- Add user -->
+    <string name="add_user_title">จัดการผู้ใช้</string>
+    <string name="hint_username">ชื่อผู้ใช้ (username)</string>
+    <string name="hint_email">อีเมล</string>
+    <string name="hint_password">รหัสผ่าน (อย่างน้อย 4 ตัว)</string>
+    <string name="btn_save_user">บันทึกผู้ใช้</string>
+    <string name="user_saved">เพิ่มผู้ใช้แล้ว</string>
+    <string name="label_user_list">ผู้ใช้ทั้งหมด</string>
+    <string name="no_users">ยังไม่มีผู้ใช้</string>
+    <string name="user_row_format">%1$s  |  %2$s  |  %3$s  |  โน้ต %4$d รายการ</string>
+
+    <!-- Errors -->
+    <string name="error_required">กรุณากรอกข้อมูล</string>
+    <string name="error_username_taken">ชื่อผู้ใช้นี้ถูกใช้แล้ว</string>
+    <string name="error_email">รูปแบบอีเมลไม่ถูกต้อง</string>
+    <string name="error_password">รหัสผ่านต้องมีอย่างน้อย 4 ตัวอักษร</string>
+    <string name="error_no_user">กรุณาเลือกเจ้าของโน้ต</string>
+    <string name="error_need_item">ต้องมีอย่างน้อย 1 รายการ</string>
+
+    <!-- Logo / Browse -->
+    <string name="logo_description">โลโก้แอปจดโน้ต</string>
+    <string name="btn_browse_note">เรียกดูโน้ต</string>
+    <string name="loading">กำลังโหลดข้อมูล...</string>
+    <string name="browse_title">เรียกดูโน้ต</string>
+    <string name="hint_search_user">ชื่อผู้ใช้ที่ต้องการค้นหา</string>
+    <string name="btn_search">ค้นหา</string>
+    <string name="searching">กำลังค้นหา...</string>
+    <string name="not_found">ไม่พบข้อมูล</string>
+    <string name="browse_hint">พิมพ์ชื่อผู้ใช้แล้วกดค้นหา</string>
+</resources>
